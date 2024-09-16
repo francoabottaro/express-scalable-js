@@ -1,6 +1,6 @@
 {
   "name": "express-scalable-js",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "generador de proyecto express",
   "main": "index.js",
   "bin": "index.js",

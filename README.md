@@ -19,7 +19,7 @@ Este proyecto es un script de NPM que genera la estructura básica de un proyect
 2. Clona este repositorio e instala las dependencias directamente desde NPM:
 
    ```bash
-   npx generator-express-scalable "express-scalable-js"
+   npx generator-express-scalable "nombre_proyecto"
    ```
 
 ## Contacto:
