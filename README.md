@@ -14,8 +14,15 @@ Este proyecto es un script de NPM que genera la estructura básica de un proyect
 
 ## Instalación
 
-1. Clona este repositorio o instala el paquete directamente desde NPM:
+1. Requisito: [NodeJS](https://nodejs.org/en)
+
+2. Clona este repositorio e instala las dependencias directamente desde NPM:
 
    ```bash
    npx generator-express-scalable "express-scalable-js"
    ```
+
+## Contacto:
+
+- [Franco Bottaro | LinkedIn](https://www.linkedin.com/in/francoabottaro/)
+- [Franco Bottaro | GitHub](https://github.com/francoabottaro)
