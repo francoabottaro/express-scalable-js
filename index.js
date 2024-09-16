@@ -10,7 +10,7 @@ const path = require('path')
 // ver si ya se creo la carpeta
 const existProject = path.join(nameProject, "node_modules")
 if(fs.existsSync(existProject)){
-  console.error(`Ya existe la carpeta: ${nameProject}!!!`) 
+  console.error(`Ya existe la carpeta: ${rootProject}!!!`) 
   return
 }
 
