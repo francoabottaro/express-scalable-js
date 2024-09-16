@@ -5,9 +5,12 @@ const fs = require('node:fs')
 const nameProject = process.argv[2]?.toLowerCase() ?? "app_project"
 const folder = process.cwd().split(/[/\\]/).pop().toLowerCase()
 const rootProject = process.argv[2] === "." ? folder : nameProject
+const path = require('path')
 
-if(fs.existsSync(nameProject)){
-  console.log(`Ya existe la carpeta: ${nameProject}`) 
+// ver si ya se creo la carpeta
+const existProject = path.join(nameProject, "node_modules")
+if(fs.existsSync(existProject)){
+  console.error(`Ya existe la carpeta: ${nameProject}!!!`) 
   return
 }
 
